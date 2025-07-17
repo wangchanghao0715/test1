@@ -4,7 +4,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import os
-from run_ai4stem_prediction import run_ai4stem
+from run_prediction import run_ai4stem
 
 st.set_page_config(page_title="AI4STEM Web App", layout="centered")
 st.title("🔬 AI4STEM - STEM图像结构预测")
